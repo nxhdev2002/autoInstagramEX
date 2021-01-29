@@ -1,0 +1,24 @@
+{
+    "name": "Demo",
+    "description": "auto insta",
+    "version": "1.0",
+    "browser_action": {
+      "default_icon": "icons/32.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "http://api.giphy.com/",
+      "https://www.instagram.com/*",
+      "https://nxhdev.pro",
+      "webRequest",
+      "tabs"
+    ],
+    "manifest_version": 2,
+    "icons": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    },
+
+
+}
