@@ -126,7 +126,7 @@ document.getElementById('getGif').addEventListener('click', async () => {
   let token = await getToken(acchana);
   let hn = hana(acchana, token);
   let totalj = 0;
-  while (true) {
+  while (1) {
     let alljob = await hn.getJobs();
     if (alljob.length > 0) {  
       for (let i = 0; i < alljob.length; i++) {
